@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f9fd; /* Błękitny kolor tła */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Błękitny kolor tekstu nagłówka */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px; /* Rozmiar nagłówka */
+    font-weight: bold; /* Pogrubienie tekstu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Cień tekstu */
+}
+
+.tweets-container {
+    margin-top: 20px;
+}
+
+.tweet {
+    background-color: #fff; /* Białe tło dla tweetu */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień */
+}
+
+.tweet .author {
+    font-weight: bold;
+    display: flex;
+    color: #007bff;
+    align-items: center;
+}
+
+.tweet .avatar {
+    width: 40px; /* Nowy rozmiar avatara */
+    height: 40px; /* Nowy rozmiar avatara */
+    border-radius: 50%; /* Zaokrąglone rogi dla avatara */
+    margin-right: 10px; /* Mniejszy odstęp między avatarem a tekstem */
+}
+
+.tweet .text {
+    color: #333; /* Czarny kolor tekstu tweetu */
+    margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f9fd; /* Błękitny kolor tła */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Błękitny kolor tekstu nagłówka */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px; /* Rozmiar nagłówka */
+    font-weight: bold; /* Pogrubienie tekstu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Cień tekstu */
+}
+
+.tweets-container {
+    margin-top: 20px;
+}
+
+.tweet {
+    background-color: #fff; /* Białe tło dla tweetu */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Cień */
+}
+
+.tweet .author {
+    font-weight: bold;
+    display: flex;
+    color: #007bff;
+    align-items: center;
+}
+
+.tweet .avatar {
+    width: 40px; /* Nowy rozmiar avatara */
+    height: 40px; /* Nowy rozmiar avatara */
+    border-radius: 50%; /* Zaokrąglone rogi dla avatara */
+    margin-right: 10px; /* Mniejszy odstęp między avatarem a tekstem */
+}
+
+.tweet .text {
+    color: #333; /* Czarny kolor tekstu tweetu */
+    margin-top: 10px;
+}
+
+.tweet .date {
+    color: #666; /* Szary kolor daty */
+    font-size: 0.8em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666; /* Szary kolor tekstu stopki */
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #666; /* Szary kolor tekstu stopki */
+}
+
+.footer p {
+    margin: 0;
+}
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .tweet {
+    animation: slideIn 0.5s ease forwards; /* Dodaj animację do klasy tweet */
+  }
+  
